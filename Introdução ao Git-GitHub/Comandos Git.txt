@@ -1,0 +1,28 @@
+git help - Ajuda no geral
+git config --global user.name "Nome Sobrenome" -> Utilizado para indicar usuário
+git config --global user.email exemplo@exemplo.com.br -> Utilizado para indicar email
+git config --list -> Listar configurações
+
+git init -> Criando novo repositório
+git status -> Verificar estados dos arquivos/diretórios
+
+git add arquivo.txt -> Adicionar arquivo específico
+git add diretório.txt -> Adicionar diretório específico
+git add . -> Adcionar todos os arquivos/diretórios
+
+git commit nome_do_arquivo.txt -> Comitar arquivo específico
+git commit meuaquivo.txt -m "mensagem do commit" -> Comitar informando mensagem
+
+git rm meu_arquivo.txt -> Remover arquivo
+git rm -r diretorio -> Remover diretório completo
+
+git log -> Exibir histórico
+
+git push -u origin master -> Enviar aquivos/diretórios para o repositório remoto, o primeiro push deve contor o nome do repositório remoto e o branch
+git push -> Enviar arquivos, os demais pushes não necessitam especificar o repositório
+
+git pull -> Atualizar os arquivos no branch atual
+
+git clone endereço_do_repositorio -> Clonar um repositório remoto já existente
+
+git branch -> Listar os branchs

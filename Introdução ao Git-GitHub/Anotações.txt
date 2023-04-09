@@ -1,0 +1,2 @@
+Git Bash é uma terminal do Git que já vem configurado para uso.
+
